@@ -54,6 +54,12 @@ h2 ~ p {
 }
 
 /* HEADER STYLES */
+.header {
+	background-color: #aaa;
+	height: 300px;
+	position: relative;
+	width: 100%;
+}
 .header-nav {
 	float: right;
 	padding: 5.5vh 60px 0 0;
@@ -81,6 +87,13 @@ h2 ~ p {
 }
 .header-nav a:hover, .header-nav a:active {
 	color: #ed6e2f;
+}
+.header-logo {
+	background-color: #000;
+	left: 50%;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%, -50%);
 }
 .header-logo:hover, .header-logo:active {
 	opacity: 0.5;
