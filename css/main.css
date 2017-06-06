@@ -492,3 +492,14 @@ h4 {
 .gallery-info h3 {
 	margin-bottom: 1em;
 }
+
+/* MEDIA QUERIES */
+@media (max-width: 800px) {
+	html {
+		box-shadow: none;
+		padding: 0;
+	}
+	.post-aside {
+		display: none;
+	}
+}
