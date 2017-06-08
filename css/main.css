@@ -519,4 +519,11 @@ h4 {
 	.header-logo {
 		left: auto;
 	}
+
+	/* HOME STYLES */
+	.bio-box {
+		float: none;
+		font-size: 1.3rem;
+		width: auto;
+	}
 }
