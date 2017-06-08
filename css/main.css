@@ -551,4 +551,12 @@ h4 {
 	.gallery .gallery-info {
 		flex: 1 1 auto;
 	}
+
+	/* BLOG STYLES */
+	.blog-recent {
+		display: none;
+	}
+	.blog-previews {
+		padding: 0;
+	}
 }
